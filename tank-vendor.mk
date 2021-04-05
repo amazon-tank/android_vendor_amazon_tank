@@ -36,3 +36,8 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libnvramagentclient.so:system/lib/libnvramagentclient.so \
     vendor/amazon/tank/proprietary/lib/libtz_uree.so:system/lib/libtz_uree.so \
     vendor/amazon/tank/proprietary/lib/liburee_meta_drmkeyinstall_v2.so:system/lib/liburee_meta_drmkeyinstall_v2.so
+
+PRODUCT_PACKAGES += \
+    LeanbackIme \
+    LeanbackLauncher \
+    SetupWraith
