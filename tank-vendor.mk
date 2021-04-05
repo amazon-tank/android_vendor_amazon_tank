@@ -38,6 +38,11 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/liburee_meta_drmkeyinstall_v2.so:system/lib/liburee_meta_drmkeyinstall_v2.so
 
 PRODUCT_PACKAGES += \
+    AtvRemoteService \
+    GamepadPairingService \
+    GlobalKeyInterceptor \
     LeanbackIme \
     LeanbackLauncher \
-    SetupWraith
+    RemoteControlService \
+    SetupWraith \
+    TV

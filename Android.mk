@@ -19,6 +19,42 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),tank)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := AtvRemoteService
+LOCAL_MODULE_OWNER := amazon
+LOCAL_SRC_FILES := proprietary/priv-app/AtvRemoteService/AtvRemoteService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := GamepadPairingService
+LOCAL_MODULE_OWNER := amazon
+LOCAL_SRC_FILES := proprietary/priv-app/GamepadPairingService/GamepadPairingService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := GlobalKeyInterceptor
+LOCAL_MODULE_OWNER := amazon
+LOCAL_SRC_FILES := proprietary/priv-app/GlobalKeyInterceptor/GlobalKeyInterceptor.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := LeanbackIme
 LOCAL_MODULE_OWNER := amazon
 LOCAL_SRC_FILES := proprietary/priv-app/LeanbackIme/LeanbackIme.apk
@@ -43,9 +79,33 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := RemoteControlService
+LOCAL_MODULE_OWNER := amazon
+LOCAL_SRC_FILES := proprietary/priv-app/RemoteControlService/RemoteControlService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := SetupWraith
 LOCAL_MODULE_OWNER := amazon
 LOCAL_SRC_FILES := proprietary/priv-app/SetupWraith/SetupWraith.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := TV
+LOCAL_MODULE_OWNER := amazon
+LOCAL_SRC_FILES := proprietary/priv-app/TV/TV.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
