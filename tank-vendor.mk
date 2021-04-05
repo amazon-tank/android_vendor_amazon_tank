@@ -17,6 +17,8 @@
 PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/bin/hdmi:system/bin/hdmi \
     vendor/amazon/tank/proprietary/bin/pq:system/bin/pq \
+    vendor/amazon/tank/proprietary/etc/bluetooth/btmac.sh:system/etc/bluetooth/btmac.sh \
+    vendor/amazon/tank/proprietary/etc/bluetooth/rfkill_bt.sh:system/etc/bluetooth/rfkill_bt.sh \
     vendor/amazon/tank/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     vendor/amazon/tank/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/amazon/tank/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
