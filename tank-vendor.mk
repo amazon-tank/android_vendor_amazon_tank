@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libnvramagentclient.so:system/lib/libnvramagentclient.so \
     vendor/amazon/tank/proprietary/lib/libtz_uree.so:system/lib/libtz_uree.so \
     vendor/amazon/tank/proprietary/lib/liburee_meta_drmkeyinstall_v2.so:system/lib/liburee_meta_drmkeyinstall_v2.so \
+    vendor/amazon/tank/proprietary/lib/modules/bcmdhd.ko:system/lib/modules/bcmdhd.ko \
     vendor/amazon/tank/proprietary/vendor/firmware/BCM43569A2_001.003.004.0172.0000_Generic_UART_40MHz_fcbga_BU_AmazonTank.hcd:system/vendor/firmware/BCM43569A2_001.003.004.0172.0000_Generic_UART_40MHz_fcbga_BU_AmazonTank.hcd \
     vendor/amazon/tank/proprietary/vendor/firmware/brcm/bcm43569a2-firmware-test.bin:system/vendor/firmware/brcm/bcm43569a2-firmware-test.bin \
     vendor/amazon/tank/proprietary/vendor/firmware/brcm/bcm43569a2-firmware.bin:system/vendor/firmware/brcm/bcm43569a2-firmware.bin \
